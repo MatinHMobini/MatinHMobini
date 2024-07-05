@@ -68,6 +68,3 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact" alt="matinhmobini" />
 </p>
 
-<p>&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=matinhmobini&show_icons=true&locale=en" alt="matinhmobini" />
-</p>
