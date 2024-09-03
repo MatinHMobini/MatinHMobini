@@ -10,6 +10,7 @@
     <p>
       - 👯 I’m looking to collaborate on <strong>AI/ML Projects</strong><br>
       - 📫 How to reach me <strong>hmobinimatin@gmail.com</strong>
+      - Please check out my Portfolio listed below to learn more about me!
     </p>
   </div>
   <div>
