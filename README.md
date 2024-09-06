@@ -1,11 +1,13 @@
 <h1 align="center">Greetings! 👋 I'm Matin Mobini</h1>
 <h3 align="center">I am a Passionate Computer Science Student</h3>
 
-<p align="left"> 
+<p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=matinhmobini&label=Profile%20views&color=0e75b6&style=flat" alt="matinhmobini" /> 
 </p>
 
-<div style="display: flex; align-items: center;">
+<br/>
+
+<div align="center" style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <p>
       - 👯 I’m looking to collaborate on <strong>AI/ML Projects</strong><br>
@@ -18,12 +20,7 @@
   </div>
 </div>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/matin-mobini-56aa56277/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="matin mobini" height="30" width="40" />
-  </a>
-</p>
+<br/>
 
 <h3 align="center">Languages and Tools</h3>
 
@@ -93,8 +90,17 @@
   </a>
 </p>
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=30" alt="matinhmobini" />
+<br/>
+
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=30" alt="matinhmobini" />
 </p>
 
+<br/>
 
+<h3 align="center">Connect with me:</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/matin-mobini-56aa56277/" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="matin mobini" height="30" width="40" />
+  </a>
+</p>
