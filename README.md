@@ -12,7 +12,8 @@
     <p>
       - 👯 I’m looking to collaborate on <strong>AI/ML Projects</strong><br>
       - 📫 How to reach me <strong>hmobinimatin@gmail.com</strong><br>
-      - Please check out my Portfolio listed below to learn more about me!
+      - Please check out my Portfolio listed below to learn more about me!<br>
+      - <a href="https://matinhmobini.github.io/Portfolio/" target="_blank">My Portfolio</a>
     </p>
   </div>
   <div>
