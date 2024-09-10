@@ -96,7 +96,7 @@
 <br/>
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=8&exclude_repo=House-Price-Prediction&theme=radical" alt="matinhmobini" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=8&exclude_repo=House-Price-Prediction,Cycling-Club-Event-Management-App,StringBuffer-Enhanced-LinkedList-Iterator&theme=radical" alt="matinhmobini" />
 </p>
 
 <br/>
