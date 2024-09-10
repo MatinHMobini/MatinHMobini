@@ -96,7 +96,7 @@
 <br/>
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=30" alt="matinhmobini" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=matinhmobini&show_icons=true&locale=en&layout=compact&langs_count=8&exclude_repo=House-Price-Prediction&theme=radical" alt="matinhmobini" />
 </p>
 
 <br/>
