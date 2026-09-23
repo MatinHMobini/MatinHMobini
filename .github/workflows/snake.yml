@@ -1,4 +1,4 @@
-name: Generate snake animation
+name: Generate profile cards
 
 on:
   # regenerate once a day (00:00 UTC)
@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * *"
   # adds a "Run workflow" button in the Actions tab
   workflow_dispatch:
-  # regenerate whenever the profile README changes
+  # regenerate whenever the repo changes
   push:
     branches:
       - main
@@ -16,18 +16,28 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVGs from the contribution graph
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=#fe428e&color_dots=#ebedf0,#ddd6fe,#c4b5fd,#a78bfa,#7c3aed
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#fe428e&color_dots=#161b22,#3b2a63,#5b3fa3,#8b6ee8,#c4b5fd
+      - uses: actions/checkout@v7
 
-      - name: Push SVGs to the output branch
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Install the snake generator
+        run: npm install --no-save --no-package-lock generate-snake-animation@3
+
+      - name: Build the language card and snake
+        run: node .github/scripts/profile-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Your work GitHub usernames, separated by commas, e.g. "work-username-1, work-username-2"
+          WORK_ACCOUNTS: "Matin-Adaptron"
+          # Languages to leave out of the language card
+          HIDE_LANGUAGES: "Jupyter Notebook"
+
+      - name: Push images to the output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
