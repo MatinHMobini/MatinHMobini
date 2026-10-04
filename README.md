@@ -30,7 +30,7 @@
         <br/><br/>
         🤝 <b>Open to collaborate</b> on AI, ML, robotics, and software engineering projects.
         <br/><br/>
-        📫 <a href="mailto:hmobinimatin@gmail.com">hmobinimatin@gmail.com</a> &nbsp;·&nbsp; 🔗 <a href="https://matinhmobini.github.io/Portfolio/">My Portfolio</a>
+        🔗 <a href="https://matinhmobini.github.io/Portfolio/">My Website!</a>
       </p>
     </td>
     <td width="38%" align="center" valign="middle">
@@ -78,14 +78,9 @@
   <img src="https://raw.githubusercontent.com/MatinHMobini/MatinHMobini/output/languages.svg" alt="Most used languages across my public repositories" />
 </p>
 
-<h3 align="center">🔥 Activity &amp; Streaks</h3>
-
 > [!NOTE]
-> This account holds my personal and public projects. Most of my day-to-day engineering happens in private repositories on my work accounts, so the public history on this page only shows part of the picture.
+> This account holds my personal and public projects. Most of my day-to-day development happens in private repositories on my work accounts, so the public history on this page only shows part of the picture.
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=MatinHMobini&theme=radical&hide_border=true" alt="GitHub contribution streak" />
-</p>
 
 <p align="center">
   <picture>
@@ -94,7 +89,6 @@
     <img src="https://raw.githubusercontent.com/MatinHMobini/MatinHMobini/output/github-snake.svg" alt="Snake eating my contribution days" />
   </picture>
   <br/>
-  <sub>🐍 Every square is a real day I committed code, packed together so quiet stretches don't leave gaps.</sub>
 </p>
 
 <h3 align="center">🤝 Connect with me</h3>
