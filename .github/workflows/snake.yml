@@ -32,8 +32,6 @@ jobs:
         run: node .github/scripts/profile-cards.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Your work GitHub usernames, separated by commas, e.g. "work-username-1, work-username-2"
-          WORK_ACCOUNTS: "Matin-Adaptron"
           # Languages to leave out of the language card
           HIDE_LANGUAGES: "Jupyter Notebook"
 

@@ -266,27 +266,52 @@ flowchart LR
 
 <h3 align="center">🎓 Coursework</h3>
 
-<p align="center"><sub>Honours BSc Computer Science, University of Ottawa · Concentration in AI &amp; ML · graduating April 2027</sub></p>
+<p align="center"><sub>Honours BSc in Computer Science (Co-op), University of Ottawa · CGPA 8.94 / 10 · graduating April 2027</sub></p>
+<p align="center"><sub>🏅 Admission Scholarship (2022) · Merit Scholarship (2023, 2024, 2025) · Montrusco Bolton Merit Scholarship (2026)</sub></p>
 
 <table align="center">
   <tr>
     <td valign="top" width="50%">
       <table width="100%">
         <tr><th colspan="2" align="left">🤖 AI, ML &amp; Data</th></tr>
-        <tr><td>Machine Learning</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Data Science</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Applied Machine Learning (SEG 4180)</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Probability &amp; Statistics</td><td align="right"><b>GRADE</b></td></tr>
+        <tr><td><code>SEG 4180</code> Applied Machine Learning</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 4142</code> Fundamentals of Data Science</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CSI 4107</code> Information Retrieval</td><td align="right"><b>A</b></td></tr>
+      </table>
+      <br/>
+      <table width="100%">
+        <tr><th colspan="2" align="left">📐 Math &amp; Statistics</th></tr>
+        <tr><td><code>MAT 1322</code> Calculus II</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>MAT 1348</code> Discrete Math for Computing</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>MAT 1341</code> Linear Algebra</td><td align="right"><b>A-</b></td></tr>
+        <tr><td><code>MAT 1320</code> Calculus I</td><td align="right"><b>A-</b></td></tr>
+        <tr><td><code>MAT 2377</code> Probability &amp; Statistics</td><td align="right"><b>B+</b></td></tr>
+      </table>
+      <br/>
+      <table width="100%">
+        <tr><th align="left">⏳ In progress</th></tr>
+        <tr><td><code>CSI 4900</code> Honours Project</td></tr>
+        <tr><td><code>CSI 4133</code> Picture Processing &amp; Analysis</td></tr>
+        <tr><td><code>CSI 4141</code> Real-Time Systems Design</td></tr>
       </table>
     </td>
     <td valign="top" width="50%">
       <table width="100%">
         <tr><th colspan="2" align="left">💻 Core Computer Science</th></tr>
-        <tr><td>Data Structures &amp; Algorithms</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Object-Oriented Programming</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Databases</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Computer Architecture</td><td align="right"><b>GRADE</b></td></tr>
-        <tr><td>Programming Paradigms</td><td align="right"><b>GRADE</b></td></tr>
+        <tr><td><code>CSI 2110</code> Data Structures &amp; Algorithms</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 3105</code> Design &amp; Analysis of Algorithms</td><td align="right"><b>A-</b></td></tr>
+        <tr><td><code>CSI 2120</code> Programming Paradigms</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 3120</code> Programming Language Concepts</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 3104</code> Formal Languages</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 2372</code> Advanced Programming in C++</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>ITI 1121</code> Intro to Computing II (OOP)</td><td align="right"><b>A+</b></td></tr>
+        <tr><td><code>CSI 2132</code> Databases I</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CEG 2136</code> Computer Architecture I</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CSI 2101</code> Discrete Structures</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>SEG 2105</code> Software Engineering</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CSI 3140</code> Web Structures &amp; Standards</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CEG 3185</code> Data Communications &amp; Networking</td><td align="right"><b>A-</b></td></tr>
+        <tr><td><code>CSI 3131</code> Operating Systems</td><td align="right"><b>B+</b></td></tr>
       </table>
     </td>
   </tr>
