@@ -30,7 +30,7 @@
         <br/><br/>
         🤝 <b>Open to collaborate</b> on AI, ML, robotics, and software engineering projects.
         <br/><br/>
-        🔗 <a href="https://matinhmobini.github.io/Portfolio/">My Website!</a>
+        🔗 <a href="https://matinmobini.com">My Website!</a>
       </p>
     </td>
     <td width="38%" align="center" valign="middle">
