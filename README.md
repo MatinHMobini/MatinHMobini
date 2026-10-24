@@ -24,12 +24,10 @@
       <h3>Hey, I'm Matin 👋</h3>
       <p>
         I study Computer Science at the <b>University of Ottawa</b> with a concentration in <b>AI &amp; ML</b>.
-        Right now I split my time between robotics research at <b>Adaptron</b>, a greenhouse robot that picks ripe
-        crops, and <b>Rally</b>, the app I'm co-founding.
+        Right now I split my time between robotics research at <b>Adaptron</b> and <b>Rally</b>, the app I'm co-founding.
       </p>
       <table>
         <tr><td>🤖 <b>Now</b></td><td>AI Research &amp; Robotics Engineer at Adaptron (co-op)</td></tr>
-        <tr><td>🌱 <b>Also</b></td><td>AI/ML Engineer (freelance) on CropPilot, greenhouse automation</td></tr>
         <tr><td>🚩 <b>Building</b></td><td>Rally, as a co-founder</td></tr>
         <tr><td>🧠 <b>Capstone</b></td><td>A mental-health assistant that uses RAG and wearable data</td></tr>
         <tr><td>🏛️ <b>Before</b></td><td>Health Canada, data science &amp; analytics (two co-op terms)</td></tr>
@@ -66,50 +64,30 @@
 
 <p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
 
-<h3 align="center">🚩 What I'm building: Rally</h3>
+<h3 align="center">🚩 What I'm Building</h3>
+
+<p align="center">
+  <a href="https://rallynow.ca"><img src="./assets/rally-banner.svg" width="100%" alt="Rally: show up for something, leave with a crew. Pickup games, study sessions and jam nights near you, on one map." /></a>
+</p>
+
+<p align="center">
+  <a href="https://rallynow.ca"><img src="https://img.shields.io/badge/Visit-rallynow.ca-F2452E?style=for-the-badge&labelColor=0E1014" alt="Visit rallynow.ca" /></a>
+  <img src="https://img.shields.io/badge/Status-In%20development-F6F1EA?style=for-the-badge&labelColor=0E1014" alt="Status: in development" />
+  <img src="https://img.shields.io/badge/iPhone%20%2B%20Android-0E1014?style=for-the-badge" alt="iPhone and Android" />
+</p>
+
+<p align="center">
+  <b>Rally</b> puts the pickup games, study sessions and jam nights around you on one map.<br/>
+  Find something nearby, show up, and keep the crew together. I'm one of its co-founders.
+</p>
 
 <table align="center">
   <tr>
-    <td width="50%" valign="middle">
-      <a href="https://rallynow.ca"><img src="./assets/rally.png" width="100%" alt="Rally: show up for something, leave with a crew. Pickup games, study sessions and jam nights near you, on one map." /></a>
-    </td>
-    <td width="50%" valign="top">
-      <p><b>Co-founder</b> · Sep 2026 to now</p>
-      <p>Rally puts the pickup games, study sessions and jam nights around you on one map, so meeting people starts with showing up.</p>
-      <p><b>What I work on</b></p>
-      <ul>
-        <li>The iOS and Android app (Kotlin Multiplatform, Supabase) and its personalized event ranking</li>
-        <li>An LLM scraping agent that finds events across the web and social platforms and turns them into map-ready listings. It surfaced 200+ events in testing.</li>
-        <li>A trust-and-safety agent that screens events and users and sends anything flagged to a human review queue</li>
-      </ul>
-    </td>
+    <td align="center" width="33%">🗺️<br/><b>One map</b><br/><sub>Everything happening near you, in one place</sub></td>
+    <td align="center" width="33%">🙌<br/><b>Just show up</b><br/><sub>Pick something and meet people in person</sub></td>
+    <td align="center" width="33%">👥<br/><b>Keep the crew</b><br/><sub>Stay in touch with the people you met</sub></td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://rallynow.ca"><img src="https://img.shields.io/badge/Visit-rallynow.ca-F2452E?style=for-the-badge&labelColor=141414" alt="Visit rallynow.ca" /></a>
-  <img src="https://img.shields.io/badge/iPhone%20%2B%20Android-141414?style=for-the-badge" alt="iPhone and Android" />
-  <img src="https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Multiplatform" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-</p>
-
-<details>
-  <summary><b>How an event gets onto the map</b> (click to open)</summary>
-  <br/>
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#F6F1EA','primaryTextColor':'#141414','primaryBorderColor':'#F2452E','lineColor':'#F2452E','fontFamily':'Helvetica, Arial, sans-serif'}}}%%
-flowchart LR
-    A[Web pages and social posts] --> B[LLM scraping agent]
-    B --> C[Structured, map-ready listing]
-    C --> D{Trust and safety agent}
-    D -- looks fine --> E[Personalized ranking]
-    D -- flagged --> F[Human review queue]
-    F -- approved --> E
-    E --> G((On the map))
-```
-
-</details>
 
 <p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
 
@@ -122,12 +100,6 @@ flowchart LR
     <td>AI Research &amp; Robotics Engineer<br/><sub>Co-op</sub></td>
     <td>May to Dec 2026</td>
     <td>Core modules of a developmental cognitive AI agent in Python (long-term memory, perception, pattern recognition, action selection), a closed-loop sense-think-act pipeline in robot simulation, and an experimentation harness with ablations and regression suites</td>
-  </tr>
-  <tr>
-    <td><b>CropPilot</b><br/><sub>Ottawa</sub></td>
-    <td>AI/ML Engineer<br/><sub>Freelance</sub></td>
-    <td>Jul 2026 to now</td>
-    <td>Robotic-arm system for an agri-tech partner that detects crops, ripeness and plant disease with real-time computer vision (YOLO, PyTorch, OpenCV, RGB-D), plus a continuous-learning pipeline starting from a 0.76 mAP@0.5 baseline</td>
   </tr>
   <tr>
     <td><b>Health Canada</b><br/><sub>Ottawa</sub></td>

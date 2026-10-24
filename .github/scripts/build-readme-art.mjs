@@ -184,8 +184,65 @@ function ground() {
   return svg(W, H, '', body, '');
 }
 
+// ---------------------------------------------------------------- Rally banner (Rally's own brand, not pixel art)
+function rallyBanner() {
+  const W = 1200, H = 380;
+  const RED = '#F2452E', CREAM = '#F6F1EA', INK = '#0E1014', CARD = '#16181D', MUTED = '#9AA0A6';
+  // Map card on the right: a street grid, a river, and pulsing event pins.
+  const MX = 760, MY = 40, MW = 400, MH = 300;
+  let streets = '';
+  for (let x = MX + 30; x < MX + MW; x += 52) streets += `<rect x="${x}" y="${MY}" width="6" height="${MH}" fill="#23262D"/>`;
+  for (let y = MY + 24; y < MY + MH; y += 46) streets += `<rect x="${MX}" y="${y}" width="${MW}" height="6" fill="#23262D"/>`;
+  const pins = [
+    [MX + 110, MY + 70, '14'], [MX + 300, MY + 60, '11'], [MX + 270, MY + 175, '6'],
+    [MX + 80, MY + 215, '7'], [MX + 350, MY + 245, '5'],
+  ].map(([x, y, n], i) => `
+  <circle cx="${x}" cy="${y}" r="22" fill="none" stroke="${RED}" stroke-width="3" class="ring" style="animation-delay:${i * 0.45}s"/>
+  <circle cx="${x}" cy="${y}" r="16" fill="${CARD}" stroke="${RED}" stroke-width="3"/>
+  <text x="${x}" y="${y + 6}" text-anchor="middle" class="n">${n}</text>`).join('');
+  const css = `
+text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.title { font-size: 46px; font-weight: 800; fill: ${CREAM}; letter-spacing: -1px; }
+.word { font-size: 34px; font-weight: 700; fill: ${CREAM}; }
+.sub { font-size: 19px; fill: ${MUTED}; }
+.n { font-size: 15px; font-weight: 700; fill: ${CREAM}; }
+.url { font-size: 18px; font-weight: 600; fill: ${CREAM}; }
+.ring { transform-box: fill-box; transform-origin: center; animation: ring 2.4s ease-out infinite; }
+@keyframes ring { from { transform: scale(.7); opacity: .9; } to { transform: scale(1.9); opacity: 0; } }
+.route { stroke-dasharray: 8 10; animation: dash 1.2s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -18; } }
+.me { animation: me 1.6s ease-in-out infinite; }
+@keyframes me { 50% { opacity: .55; } }`;
+  const body = `<rect width="${W}" height="${H}" rx="20" fill="${INK}"/>
+<g transform="translate(56 52)"><path d="M10 4 V58" stroke="${RED}" stroke-width="7" stroke-linecap="round"/><path d="M15 6 H48 L38 19 L48 32 H15 Z" fill="${RED}"/><path d="M0 64 Q30 48 60 64 Z" fill="${CREAM}"/></g>
+<text x="128" y="100" class="word">Rally</text>
+<text x="56" y="180" class="title">Show up for something.</text>
+<text x="56" y="234" class="title">Leave with a crew.</text>
+<text x="56" y="280" class="sub">Pickup games, study sessions and jam nights near you, on one map.</text>
+<rect x="56" y="314" width="176" height="40" rx="20" fill="#1F2228" stroke="#2C3038"/>
+<circle cx="80" cy="334" r="7" fill="${RED}"/><text x="96" y="340" class="url">rallynow.ca</text>
+<clipPath id="map"><rect x="${MX}" y="${MY}" width="${MW}" height="${MH}" rx="18"/></clipPath>
+<g clip-path="url(#map)">
+  <rect x="${MX}" y="${MY}" width="${MW}" height="${MH}" fill="#1B1E24"/>
+  ${streets}
+  <path d="M${MX} ${MY + MH - 40} C ${MX + 140} ${MY + MH - 80}, ${MX + 300} ${MY + MH - 10}, ${MX + MW} ${MY + MH - 60} L ${MX + MW} ${MY + MH} L ${MX} ${MY + MH} Z" fill="#14324A"/>
+  <path d="M${MX + 185} ${MY + 150} C ${MX + 170} ${MY + 120}, ${MX + 140} ${MY + 90}, ${MX + 110} ${MY + 70}" fill="none" stroke="#4ADE80" stroke-width="4" class="route"/>
+  <circle cx="${MX + 185}" cy="${MY + 150}" r="9" fill="${CREAM}" class="me"/>
+  ${pins}
+</g>
+<rect x="${MX}" y="${MY}" width="${MW}" height="${MH}" rx="18" fill="none" stroke="#2C3038" stroke-width="2"/>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Rally: show up for something, leave with a crew. Pickup games, study sessions and jam nights near you, on one map. rallynow.ca">
+<title>Rally: show up for something, leave with a crew.</title>
+<style>${css}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+${body}
+</svg>
+`;
+}
+
 fs.mkdirSync('assets', { recursive: true });
+fs.writeFileSync('assets/rally-banner.svg', rallyBanner());
 fs.writeFileSync('assets/hero.svg', hero());
 fs.writeFileSync('assets/player-card.svg', playerCard());
 fs.writeFileSync('assets/ground.svg', ground());
-console.log('wrote assets/hero.svg, assets/player-card.svg, assets/ground.svg');
+console.log('wrote assets/rally-banner.svg, assets/hero.svg, assets/player-card.svg, assets/ground.svg');
