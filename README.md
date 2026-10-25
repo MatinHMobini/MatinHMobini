@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://matinmobini.com"><img src="./assets/hero.svg" width="100%" alt="Matin Mobini: AI/ML, robotics and software. Pixel art of the runner from matinmobini.com jumping an enemy." /></a>
+  <a href="https://matinmobini.com"><img src="./assets/hero.svg" width="100%" alt="Matin Mobini: AI/ML, generative AI and data science, beside a small neural network with signals flowing through it." /></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FE428E&center=true&vCenter=true&width=620&lines=CS+%40+uOttawa+%C2%B7+AI+%26+ML+concentration;AI+Research+%26+Robotics+Engineer+%40+Adaptron;Co-founder+%40+Rally;RAG+%E2%80%A2+LLMs+%E2%80%A2+Computer+Vision+%E2%80%A2+Robotics" alt="CS at uOttawa, AI & ML concentration | AI Research & Robotics Engineer at Adaptron | Co-founder at Rally" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FE428E&center=true&vCenter=true&width=620&lines=CS+%40+uOttawa+%C2%B7+AI+%26+ML+concentration;AI+Research+%40+Adaptron;Co-founder+%40+Rally;RAG+%E2%80%A2+LLMs+%E2%80%A2+AI+Agents+%E2%80%A2+Computer+Vision" alt="CS at uOttawa, AI & ML concentration | AI Research at Adaptron | Co-founder at Rally" />
 </p>
 
 <div align="center">
@@ -24,45 +24,22 @@
       <h3>Hey, I'm Matin 👋</h3>
       <p>
         I study Computer Science at the <b>University of Ottawa</b> with a concentration in <b>AI &amp; ML</b>.
-        Right now I split my time between robotics research at <b>Adaptron</b> and <b>Rally</b>, the app I'm co-founding.
+        Right now I split my time between AI research at <b>Adaptron</b> and <b>Rally</b>, the app I'm co-founding.
       </p>
       <table>
-        <tr><td>🤖 <b>Now</b></td><td>AI Research &amp; Robotics Engineer at Adaptron (co-op)</td></tr>
-        <tr><td>🚩 <b>Building</b></td><td>Rally, as a co-founder</td></tr>
-        <tr><td>🧠 <b>Capstone</b></td><td>A mental-health assistant that uses RAG and wearable data</td></tr>
-        <tr><td>🏛️ <b>Before</b></td><td>Health Canada, data science &amp; analytics (two co-op terms)</td></tr>
+        <tr><td>🤖 <b>Now</b></td><td>AI Research Co-op at Adaptron</td></tr>
+        <tr><td>🚩 <b>Building</b></td><td>Rally, as a Co-founder</td></tr>
+        <tr><td>🧠 <b>Capstone</b></td><td>AI Therapy Assistant app, grounded in clinical research<br/><sub>Complete RAG pipeline fed with smartwatch health data</sub></td></tr>
+        <tr><td>🏛️ <b>Before</b></td><td>Health Canada, Co-op (13 months)<br/><sub>Software Developer, Data Science &amp; Analytics · 9 mos</sub><br/><sub>Junior Analyst, Data Science &amp; Analytics · 4 mos</sub></td></tr>
       </table>
-      <p>
-        🕹️ <a href="https://matinmobini.com"><b>matinmobini.com</b></a> &nbsp;·&nbsp;
-        💼 <a href="https://www.linkedin.com/in/matin-mobini-56aa56277/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-        ✉️ <a href="mailto:hmobinimatin@gmail.com"><b>Email</b></a>
-      </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="./assets/player-card.svg" width="100%" alt="Player 1 card: class CS with an AI & ML concentration, uOttawa, GPA 3.9/4.0, nine-time Dean's Honour List, main language Python, now at Adaptron, quest: Rally." />
+      <img src="./assets/model-card.svg" width="100%" alt="matin.summary(): uOttawa CS with an AI &amp; ML concentration, GPA 3.9/4.0, nine-time Dean&#39;s Honour List, now doing AI research at Adaptron, building Rally, main language Python." />
     </td>
   </tr>
 </table>
 
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
-
-<h3 align="center">🕹️ My portfolio is a game</h3>
-
-<p align="center">
-  <a href="https://matinmobini.com"><img src="./assets/portfolio.png" width="80%" alt="matinmobini.com: Matin Mobini, Player 1 ready. Press start." /></a>
-</p>
-
-<p align="center">
-  A small neural network I trained with neuroevolution plays through my portfolio while you scroll.<br/>
-  Open its brain to see it think, watch a population learn live in the Training Lab, or take the controls yourself.
-</p>
-
-<p align="center">
-  <a href="https://matinmobini.com"><img src="https://img.shields.io/badge/%E2%96%B6%20Press%20start-matinmobini.com-FFD447?style=for-the-badge&labelColor=100C26" alt="Press start: matinmobini.com" /></a>
-  <a href="https://github.com/MatinHMobini/Portfolio"><img src="https://img.shields.io/badge/Source-MatinHMobini%2FPortfolio-5B4FC4?style=for-the-badge&logo=github&labelColor=100C26" alt="Source code: MatinHMobini/Portfolio" /></a>
-</p>
-
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
 <h3 align="center">🚩 What I'm Building</h3>
 
@@ -81,164 +58,41 @@
   Find something nearby, show up, and keep the crew together. I'm one of its co-founders.
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">🗺️<br/><b>One map</b><br/><sub>Everything happening near you, in one place</sub></td>
-    <td align="center" width="33%">🙌<br/><b>Just show up</b><br/><sub>Pick something and meet people in person</sub></td>
-    <td align="center" width="33%">👥<br/><b>Keep the crew</b><br/><sub>Stay in touch with the people you met</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/rally-flow.svg" width="100%" alt="How Rally works: open the map, pick something, join in, show up, keep the crew." />
+</p>
 
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<br/>
 
-<h3 align="center">💼 Experience</h3>
+<h3 align="center">🕹️ My portfolio is a game</h3>
 
-<table align="center">
-  <tr><th align="left" width="15%">Where</th><th align="left" width="23%">Role</th><th align="left" width="17%">When</th><th align="left">Highlights</th></tr>
-  <tr>
-    <td><b>Adaptron Inc.</b><br/><sub>Ottawa</sub></td>
-    <td>AI Research &amp; Robotics Engineer<br/><sub>Co-op</sub></td>
-    <td>May to Dec 2026</td>
-    <td>Core modules of a developmental cognitive AI agent in Python (long-term memory, perception, pattern recognition, action selection), a closed-loop sense-think-act pipeline in robot simulation, and an experimentation harness with ablations and regression suites</td>
-  </tr>
-  <tr>
-    <td><b>Health Canada</b><br/><sub>Ottawa</sub></td>
-    <td>Software Developer, Data Science &amp; Analytics<br/><sub>Co-op</sub></td>
-    <td>May 2025 to Jan 2026</td>
-    <td>A Case Management Tool adopted across government branches, with an on-premise LLM assistant that uses RAG over 100,000+ JSON case records</td>
-  </tr>
-  <tr>
-    <td><b>Health Canada</b><br/><sub>Ottawa</sub></td>
-    <td>Junior Analyst, Data Science &amp; Analytics<br/><sub>Co-op</sub></td>
-    <td>Jan to Apr 2025</td>
-    <td>A cheminformatics tool that runs 881 substructure tests to build molecular fingerprints, and ChemPath, a synthesis-pathway mapping tool</td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://matinmobini.com"><img src="./assets/portfolio.png" width="80%" alt="matinmobini.com: Matin Mobini, Player 1 ready. Press start." /></a>
+</p>
 
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center">
+  A small neural network I trained with neuroevolution plays through my portfolio while you scroll.<br/>
+  Open its brain to see it think, watch a population learn live in the Training Lab, or take the controls yourself.
+</p>
 
-<h3 align="center">🧪 Projects</h3>
+<p align="center">
+  <a href="https://matinmobini.com"><img src="https://img.shields.io/badge/%E2%96%B6%20Press%20start-matinmobini.com-FFD447?style=for-the-badge&labelColor=100C26" alt="Press start: matinmobini.com" /></a>
+  <a href="https://github.com/MatinHMobini/Portfolio"><img src="https://img.shields.io/badge/Source-MatinHMobini%2FPortfolio-5B4FC4?style=for-the-badge&logo=github&labelColor=100C26" alt="Source code: MatinHMobini/Portfolio" /></a>
+</p>
 
-<table align="center">
-  <tr>
-    <td width="33%" valign="top">
-      <img src="./assets/projects/mental-health.png" width="100%" alt="Pixel art: a heart, a pulse line and a smartwatch" />
-      <br/><b>Mental Health Assistant</b> <sub>· capstone</sub>
-      <br/><sub>RAG over clinical literature (92% hit@6) plus a stress classifier fed by heart-rate data from a smartwatch.</sub>
-      <br/><img src="https://img.shields.io/badge/private%20repo-5B4FC4?style=flat-square" alt="Private repository" />
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/MatinHMobini/hallucination-detector"><img src="./assets/projects/hallucination.png" width="100%" alt="Pixel art: a news summary with one flagged line under a magnifying glass" /></a>
-      <br/><b><a href="https://github.com/MatinHMobini/hallucination-detector">Hallucination Detector</a></b>
-      <br/><sub>Flags unfaithful sentences in news summaries and shows the article line that contradicts them.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/MatinHMobini/brain-mri-cnn-pytorch"><img src="./assets/projects/brain-mri.png" width="100%" alt="Three labelled brain MRI scans" /></a>
-      <br/><b><a href="https://github.com/MatinHMobini/brain-mri-cnn-pytorch">Brain MRI CNN</a></b>
-      <br/><sub>A from-scratch PyTorch CNN that sorts brain MRI scans into 4 classes, 85% test accuracy.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://matinmobini.com"><img src="./assets/projects/pixel-quest.png" width="100%" alt="Pixel art: the runner jumping over a pit toward coins and an enemy" /></a>
-      <br/><b><a href="https://github.com/MatinHMobini/Portfolio">Pixel Quest</a></b> <sub>· this portfolio</sub>
-      <br/><sub>A neural net trained by neuroevolution plays every level of my site. TypeScript, Canvas, Web Workers.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/MatinHMobini/googl-return-forecasting"><img src="./assets/projects/googl.png" width="100%" alt="GOOGL adjusted close price chart" /></a>
-      <br/><b><a href="https://github.com/MatinHMobini/googl-return-forecasting">GOOGL Return Forecasting</a></b>
-      <br/><sub>Next-day return forecasting with Ridge regression and a leakage-free long/flat backtest.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/MatinHMobini/My-Gambling-Buddy"><img src="./assets/projects/gambling-buddy.png" width="100%" alt="My Gambling Buddy logo" /></a>
-      <br/><b><a href="https://github.com/MatinHMobini/My-Gambling-Buddy">My Gambling Buddy</a></b> <sub>· uOttawaHack 8</sub>
-      <br/><sub>Sports stats across five leagues, explained by an AI buddy with personality.</sub>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary><b>More projects</b> (click to open)</summary>
-  <br/>
-
-| Project | What it is | Built with |
-|---|---|---|
-| [LLM Dinner Recipe Generator](https://github.com/MatinHMobini/llm-dinner-recipe-generator) | Turns a diet profile into one personal recipe with a single, layered prompt | Python, OpenAI API |
-| [House Price Predictor](https://github.com/MatinHMobini/House-Price-Prediction) | Random Forest tuned with GridSearchCV (RMSE 50,414) on a Kaggle dataset | scikit-learn, pandas |
-| [Cycling Club App](https://github.com/MatinHMobini/Cycling-Club-Event-Management-App) | Android app for cycling events and members, built by a team of 4 | Java, Android, Firebase |
-| [Hotel Booking Service](https://github.com/MatinHMobini/CSI_2132_Databases_1) | SQL database and web app for searching and booking hotel rooms | PostgreSQL, React, TypeScript |
-
-</details>
-
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
 <h3 align="center">🛠️ Languages &amp; Tools</h3>
 
-<table align="center">
-  <tr>
-    <td align="right"><b>Languages</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=py,cpp,java,kotlin,go,ts,js,html,css" alt="Python, C++, Java, Kotlin, Go, TypeScript, JavaScript, HTML, CSS" />
-      <br/><img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><b>ML &amp; Deep Learning</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv" alt="PyTorch, TensorFlow, scikit-learn, OpenCV" />
-      <br/>
-      <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
-      <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face Transformers" />
-      <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=ultralytics&logoColor=white" alt="YOLO" />
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-      <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib" />
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><b>Generative AI</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square" alt="OpenAI API" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
-      <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="LoRA / PEFT" />
-      <img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat-square" alt="vLLM" />
-      <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
-      <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><b>Backend &amp; Data</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=fastapi,flask,react,nodejs,express,postgres,mysql,supabase,firebase" alt="FastAPI, Flask, React, Node.js, Express, PostgreSQL, MySQL, Supabase, Firebase" />
-      <br/><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><b>MLOps &amp; Cloud</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git" alt="Docker, AWS, GitHub Actions, Linux, Git" />
-      <br/>
-      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
-      <img src="https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" alt="Weights & Biases" />
-    </td>
-  </tr>
-  <tr>
-    <td align="right"><b>Editors</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=vscode,idea,androidstudio" alt="VS Code, IntelliJ IDEA, Android Studio" />
-      <br/><img src="https://img.shields.io/badge/Excel-217346?style=flat-square" alt="Excel" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Languages: Python, C++, Java, Kotlin, Go, TypeScript, JavaScript, SQL. ML and deep learning: PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, YOLO, NumPy, pandas. Generative AI: Claude, OpenAI API, Hugging Face, LangChain, LangGraph, MCP, Qdrant, vLLM. Backend and data: FastAPI, Flask, React, Node.js, PostgreSQL, Supabase, Firebase, Streamlit. MLOps and tools: Docker, AWS, GitHub Actions, Linux, Git, MLflow, Weights and Biases, Jupyter." />
+</p>
 
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
 <h3 align="center">🎓 Coursework</h3>
 
-<p align="center"><sub>Honours BSc in Computer Science (Co-op), University of Ottawa · CGPA 8.94 / 10 · graduating April 2027</sub></p>
+<p align="center"><sub>Honours BSc in Computer Science (Co-op), University of Ottawa · GPA 3.9 / 4.0 · graduating April 2027</sub></p>
 <p align="center"><sub>🏅 Admission Scholarship (2022) · Merit Scholarship (2023, 2024, 2025) · Montrusco Bolton Merit Scholarship (2026)</sub></p>
 
 <table align="center">
@@ -249,6 +103,7 @@
         <tr><td><code>SEG 4180</code> Applied Machine Learning</td><td align="right"><b>A+</b></td></tr>
         <tr><td><code>CSI 4142</code> Fundamentals of Data Science</td><td align="right"><b>A</b></td></tr>
         <tr><td><code>CSI 4107</code> Information Retrieval</td><td align="right"><b>A</b></td></tr>
+        <tr><td><code>CSI 3105</code> Design &amp; Analysis of Algorithms</td><td align="right"><b>A-</b></td></tr>
       </table>
       <br/>
       <table width="100%">
@@ -259,19 +114,11 @@
         <tr><td><code>MAT 1320</code> Calculus I</td><td align="right"><b>A-</b></td></tr>
         <tr><td><code>MAT 2377</code> Probability &amp; Statistics</td><td align="right"><b>B+</b></td></tr>
       </table>
-      <br/>
-      <table width="100%">
-        <tr><th align="left">⏳ In progress</th></tr>
-        <tr><td><code>CSI 4900</code> Honours Project</td></tr>
-        <tr><td><code>CSI 4133</code> Picture Processing &amp; Analysis</td></tr>
-        <tr><td><code>CSI 4141</code> Real-Time Systems Design</td></tr>
-      </table>
     </td>
     <td valign="top" width="50%">
       <table width="100%">
         <tr><th colspan="2" align="left">💻 Core Computer Science</th></tr>
         <tr><td><code>CSI 2110</code> Data Structures &amp; Algorithms</td><td align="right"><b>A+</b></td></tr>
-        <tr><td><code>CSI 3105</code> Design &amp; Analysis of Algorithms</td><td align="right"><b>A-</b></td></tr>
         <tr><td><code>CSI 2120</code> Programming Paradigms</td><td align="right"><b>A+</b></td></tr>
         <tr><td><code>CSI 3120</code> Programming Language Concepts</td><td align="right"><b>A+</b></td></tr>
         <tr><td><code>CSI 3104</code> Formal Languages</td><td align="right"><b>A+</b></td></tr>
@@ -289,7 +136,7 @@
   </tr>
 </table>
 
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>
 
 <h3 align="center">📊 Language Tracker</h3>
 
@@ -318,8 +165,4 @@
   <a href="mailto:hmobinimatin@gmail.com"><img src="https://img.shields.io/badge/hmobinimatin%40gmail.com-FE428E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: hmobinimatin@gmail.com" /></a>
 </p>
 
-<p align="center">
-  🎮 Gaming &nbsp;·&nbsp; 🏀 Basketball &nbsp;·&nbsp; 🏋️ Gym
-</p>
-
-<p align="center"><img src="./assets/ground.svg" width="100%" alt="" /></p>
+<p align="center"><img src="./assets/divider.svg" width="100%" alt="" /></p>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="How Rally works: open the map, pick something, join in, show up, keep the crew.">
+<title>How Rally works: open the map, pick something, join in, show up, keep the crew.</title>
+<style>
+text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.t { font-size: 18px; font-weight: 700; fill: #F6F1EA; }
+.s { font-size: 14px; fill: #9AA0A6; }
+.hit { opacity: 0; animation: hit 6s linear infinite; }
+@keyframes hit { 0% { opacity: 1; } 12% { opacity: 0; } 100% { opacity: 0; } }
+.dot { animation: go 6s ease-in-out infinite; }
+@keyframes go { 0% { transform: translateX(0); } 80% { transform: translateX(920px); } 90% { transform: translateX(920px); opacity: 1; } 95%, 100% { transform: translateX(920px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<rect width="1200" height="210" rx="20" fill="#0E1014"/>
+<line x1="140" y1="92" x2="1060" y2="92" stroke="#2C3038" stroke-width="3" stroke-dasharray="6 8"/>
+<g>
+  <circle cx="140" cy="92" r="34" fill="#16181D" stroke="#2C3038" stroke-width="2"/>
+  <circle cx="140" cy="92" r="34" fill="none" stroke="#F2452E" stroke-width="3" class="hit" style="animation-delay:0.00s"/>
+  <path d="M140 104 C 126 88, 128 76, 140 76 C 152 76, 154 88, 140 104 Z" fill="#F6F1EA"/><circle cx="140" cy="87" r="4" fill="#0E1014"/>
+  <text x="140" y="158" text-anchor="middle" class="t">Open the map</text>
+  <text x="140" y="180" text-anchor="middle" class="s">See what is on near you</text>
+</g>
+<g>
+  <circle cx="370" cy="92" r="34" fill="#16181D" stroke="#2C3038" stroke-width="2"/>
+  <circle cx="370" cy="92" r="34" fill="none" stroke="#F2452E" stroke-width="3" class="hit" style="animation-delay:1.20s"/>
+  <circle cx="367" cy="89" r="9" fill="none" stroke="#F6F1EA" stroke-width="3"/><path d="M374 96 L 381 103" stroke="#F6F1EA" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="370" y="158" text-anchor="middle" class="t">Pick something</text>
+  <text x="370" y="180" text-anchor="middle" class="s">Games, study, music</text>
+</g>
+<g>
+  <circle cx="600" cy="92" r="34" fill="#16181D" stroke="#2C3038" stroke-width="2"/>
+  <circle cx="600" cy="92" r="34" fill="none" stroke="#F2452E" stroke-width="3" class="hit" style="animation-delay:2.40s"/>
+  <path d="M600 81 V 103 M 589 92 H 611" stroke="#F6F1EA" stroke-width="4" stroke-linecap="round"/>
+  <text x="600" y="158" text-anchor="middle" class="t">Join in</text>
+  <text x="600" y="180" text-anchor="middle" class="s">One tap and you are in</text>
+</g>
+<g>
+  <circle cx="830" cy="92" r="34" fill="#16181D" stroke="#2C3038" stroke-width="2"/>
+  <circle cx="830" cy="92" r="34" fill="none" stroke="#F2452E" stroke-width="3" class="hit" style="animation-delay:3.60s"/>
+  <path d="M823 79 V 105" stroke="#F6F1EA" stroke-width="3.5" stroke-linecap="round"/><path d="M826 80 H 841 L 836 87 L 841 94 H 826 Z" fill="#F6F1EA"/>
+  <text x="830" y="158" text-anchor="middle" class="t">Show up</text>
+  <text x="830" y="180" text-anchor="middle" class="s">Meet people in person</text>
+</g>
+<g>
+  <circle cx="1060" cy="92" r="34" fill="#16181D" stroke="#2C3038" stroke-width="2"/>
+  <circle cx="1060" cy="92" r="34" fill="none" stroke="#F2452E" stroke-width="3" class="hit" style="animation-delay:4.80s"/>
+  <circle cx="1054" cy="86" r="5" fill="#F6F1EA"/><circle cx="1067" cy="86" r="5" fill="#F6F1EA"/><path d="M1045 103 Q 1054 90 1063 103 Z M 1058 103 Q 1067 90 1076 103 Z" fill="#F6F1EA"/>
+  <text x="1060" y="158" text-anchor="middle" class="t">Keep the crew</text>
+  <text x="1060" y="180" text-anchor="middle" class="s">Plan the next one</text>
+</g>
+<circle cx="140" cy="46" r="7" fill="#F2452E" class="dot"/>
+</svg>
